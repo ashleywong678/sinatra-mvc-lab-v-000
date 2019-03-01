@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
   
   post '/latinize' do
-    params
+    params.to_s
   end
   
 end
