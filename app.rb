@@ -6,8 +6,8 @@ class App < Sinatra::Base
     erb :user_input
   end
   
-  post '/' do
-    
+  post '/user_input' do
+    params
   end
   
 end
